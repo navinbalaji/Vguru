@@ -66,8 +66,8 @@ public class SendMail extends HttpServlet {
 		int validateEmail=Insert.emailValidate(email);
 		if(validateEmail==0) {
 		 String to = email;
-		final String user="navinbalaji@zohomail.in";//change accordingly  
-		final String pass="naveenbalaji";  
+		final String user="";//Email 
+		final String pass="";//Password
 		  
 		//1st step) Get the session object    
 		Properties props = new Properties();  
