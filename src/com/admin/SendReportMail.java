@@ -75,8 +75,8 @@ public class SendReportMail extends HttpServlet {
 		 
 	      MessageContent+="<br><br><h3 style='text-align:center '> Mentor Message <h3><br><p>"+AdditionalMessage+"</p>";
 		 
-			final String user="navinbalaji@zohomail.in";//change accordingly  
-			final String pass="naveenbalaji";  
+			final String user="";//Email  
+			final String pass="";//password
 			  
 			//1st step) Get the session object    
 			Properties props = new Properties();  
