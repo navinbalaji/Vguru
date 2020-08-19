@@ -46,8 +46,8 @@ public class fpServe extends HttpServlet {
 		int ROTP=rand.nextInt(1000000);
 		String RecoverOTP=String.valueOf(ROTP);
 		String to = touser;
-		final String user="navinbalaji@zohomail.in";//change accordingly  
-		final String pass="naveenbalaji";  
+		final String user="";//Email  
+		final String pass="";//Password  
 		  
 		//1st step) Get the session object    
 		Properties props = new Properties();  
